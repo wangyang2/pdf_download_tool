@@ -14,9 +14,10 @@ for i in range(1000, 1661):
 print(pdfs_URL)
 
 for i in pdfs_URL:
-    time.sleep(2)
     r = requests.get(i)
+    time.sleep(1)
     path = re.sub("https://www.aclweb.org/anthology/", "C:/Users/viruser.v-desktop/Desktop/download_file/", i)
     path = re.sub('\n', '', path)
+    time.sleep(1)
     with open(path, "wb") as f:
         f.write(r.content)
