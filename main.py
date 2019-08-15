@@ -1,4 +1,5 @@
 # reference：https://blog.csdn.net/m0_37589837/article/details/84332864
+# python_version = 3.5
 import re
 import requests
 import sys
