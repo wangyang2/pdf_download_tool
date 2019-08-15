@@ -8,7 +8,7 @@ s.keep_alive = False
 
 pdfs_URL = []
 base_URL = "https://www.aclweb.org/anthology/P19-"
-for i in range(1038, 1661):
+for i in range(1000, 1661):
     URL = base_URL + str(i) + '.pdf'
     pdfs_URL.append(URL)
 print(pdfs_URL)
